@@ -14,7 +14,7 @@ def sms_reply():
     response = requests.post(
         'https://api.openai.com/v1/chat/completions',
         headers={
-            'Authorization': f'Bearer {OPENAI_API_KEY}',
+            'Authorization': f'Bearer {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}',
             'Content-Type': 'application/json'
         },
         json={
